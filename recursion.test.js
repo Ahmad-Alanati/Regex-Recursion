@@ -16,8 +16,8 @@ pow(2,4) = 16
 
 function pow(x, n) {
     // Write you logic here.
-    if(n==1){
-        return x;
+    if(n==0){
+        return 1;
     }
     return x*pow(x,n-1);
 }
